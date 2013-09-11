@@ -1,6 +1,6 @@
 #
 #Jonathan Strand
-#Dept. of Geology & Geophysics, TAMU. 2013-09-03
+#Dept. of Geology & Geophysics, TAMU. 2013-09-11
 #Python for Geoscientists
 #
 #Script to read burl1 data from noaa
