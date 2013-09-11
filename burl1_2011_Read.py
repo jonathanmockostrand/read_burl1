@@ -1,11 +1,19 @@
+################################################################################
 #
 #Jonathan Strand
 #Dept. of Geology & Geophysics, TAMU. 2013-09-11
 #Python for Geoscientists
 #
-#Script to read burl1 data from noaa
+################################################################################
+#
+#This script will read date, sea-level pressure,wind speed, and wind direction 
+#from a NOAA bouy data file. Wind speed and direction has been converted to 
+#northward and eastward wind vectors.
+#
 #http://www.ndbc.noaa.gov/download_data.php?filename=burl1h2011.txt.gz&dir=data/historical/stdmet/
 #
+################################################################################
+
 import numpy as np
 import datetime as dt
 
