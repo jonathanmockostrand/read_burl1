@@ -13,26 +13,25 @@
 #http://www.ndbc.noaa.gov/download_data.php?filename=burl1h2011.txt.gz&dir=data/historical/stdmet/
 #
 ################################################################################
-#
-#Function:
-#    noaa_convert(file)
-#
-#Input:
-#    file.dat
-#    
-#Output:
-#    Date as datetime
-#    Pressure as sea-level pressure
-#    wU and wV as Components U and V of wind vector 
-#    (converted from wind speed and direction)
-#
-################################################################################
 
 import numpy as np
 import datetime as dt
 
 def noaa_convert(file):
+    '''
+    Function:
+        noaa_convert(file)
 
+    Input:
+        file.dat
+        
+    Output:
+        Date as datetime
+        Pressure as sea-level pressure
+        wU and wV as Components U and V of wind vector 
+        (converted from wind speed and direction)
+    '''
+    
     f = open(file)
 
     date = []
