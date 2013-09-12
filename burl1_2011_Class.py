@@ -62,9 +62,9 @@ class burl1_2011():
         U = np.array( -wspeed * np.sin(wdirection * np.pi/180) )
         V = np.array( -wspeed * np.cos(wdirection * np.pi/180) )
 
-        self.date=date
-        self.pressure=pressure
-        self.U=U
-        self.V=V
+        self.date = date
+        self.pressure = pressure
+        self.U = U
+        self.V = V
         
 d11 = burl1_2011('burl1_2011.dat')
