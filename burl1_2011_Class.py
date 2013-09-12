@@ -20,7 +20,7 @@ import datetime as dt
 class burl1_2011():
     '''
     Function:
-        noaa_convert(file)
+        burl1_2011(file)
 
     Input:
         file.dat
